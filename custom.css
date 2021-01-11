@@ -84,7 +84,7 @@ select {
 
 header nav ul li {
   float: right;
-  margin: 20px;
+  margin: 60px;
 }
 header img {
   float: left;
@@ -92,6 +92,10 @@ header img {
 }
 header {
   overflow: hidden;
+}
+
+nav {
+  width: calc(70% - 40px);
 }
 /*end header style*/
 
@@ -121,6 +125,8 @@ p {
   width: calc(70% - 40px);
   margin: 20px;
   height: 270px;
+  border: solid 1px burlywood;
+  background-color: burlywood;
 }
 
 /*end style section 2*/
@@ -134,5 +140,7 @@ footer p {
   float: right;
   width: calc(70% - 40px);
   margin: 20px;
+  border: solid 1px salmon;
+  background-color: salmon;
 }
 
